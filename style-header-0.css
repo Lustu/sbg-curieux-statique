@@ -1,0 +1,14 @@
+#top-nav{
+	background-color: black;
+	height: 60px;
+}
+
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  align-items: center;
+}
