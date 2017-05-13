@@ -3,3 +3,10 @@
 	color: white;
 	height: 60px;
 }
+
+@media screen and (max-width: 640px) {
+  .logo {
+  	max-width: 220px;
+  	padding-top: 15px;
+  	  }
+  }
