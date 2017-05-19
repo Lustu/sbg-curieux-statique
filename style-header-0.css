@@ -2,6 +2,7 @@
 	background-color: black;
 	color: white;
 	height: 60px;
+	width: 100%;
 }
 
 @media screen and (max-width: 640px) {
@@ -9,4 +10,48 @@
   	max-width: 220px;
   	padding-top: 15px;
   	  }
+  }
+
+  .navbar-toggler span {
+   display: block;
+   background-color: white;
+   height: 3px;
+   width: 30px;
+   margin-top: 6px;
+   margin-bottom: 4px;
+}
+
+
+#collapsingNavbar {
+	background-color: black;
+	font-family: 'Abel';
+  position: absolute;
+  left: 0px;
+}
+
+.nav {
+  width: 300px;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.dropdown-menu {
+	background-color: black;
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar a {
+color: white;}
+.navbar ul li a:hover {
+color:#F7CA05; background: black;}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+button:focus {
+    outline: 1px;
   }
