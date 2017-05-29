@@ -1,0 +1,347 @@
+/*
+Theme Name: strasbourg-curieux
+Theme URI: http://wordpress.bbxdesign.com
+Author: bbx
+Author URI: http://bbxdesign.com
+Description: L'agenda culturel de Strasbourg.
+Version: 1.0
+Tags: 
+*/
+
+
+
+
+@font-face {
+    font-family: 'Oswald-regular';
+    src: url('typos/Oswaldregular.ttf'); 
+}
+
+@font-face {
+    font-family: 'Oswald300';
+    src: url('typos/Oswald300.ttf');
+}
+    
+@font-face {
+    font-family: 'Oswald700';
+    src: url('typos/Oswald700.ttf');
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.eye {
+    width: 100%;
+} 
+
+.wrapper {
+    height: 60px;
+    line-height: 60px;
+}
+
+.hamburger {
+    width: 100%;
+    max-width: 30px;
+    min-width: 15px;
+}
+
+.logo-header { 
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+ }
+
+.search {
+    width: 70%;
+    max-width: 30px;
+    min-width: 25px;
+}
+
+header {
+    background: black;
+    height: 60px;
+}
+
+.banner-black {
+    height: 60px;
+    line-height: 60px;
+    background: #1F1E1E;
+}
+
+
+.arrow-banner {
+    width: 100%;
+    max-width: 15px;
+    min-width: 15px;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+
+.arrow-wrap {
+    height: 60px;
+    line-height: 60px;
+}
+
+.banner-txt {
+    font-family: 'Oswald-regular';
+    color: white;
+    display: flex;
+    justify-content: center;
+    }
+
+@media (min-width: 501px) {
+    .banner-txt {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-txt {
+        font-size: 14px;
+    }
+}
+
+.txt-background {
+    font-family: 'Oswald-regular';
+    font-size:150px;
+    color: #F2F0F0;
+    transform: rotate(90deg);
+    transform-origin: center;
+    margin-top: : 900px;
+    z-index: -1;
+} 
+
+.date {
+    font-family: 'Oswald300';
+    font-size: 16px;
+    color: #040060;
+    margin-bottom: 10px;
+}
+
+
+.titre {
+    font-family: 'Oswald-regular';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.titre-long {
+    font-family: 'Oswald-regular';
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}   
+
+
+
+.bg {
+    width: inherit;
+    height: 240px;
+}
+
+.main-eve {
+    padding-top: 60px;
+}
+
+ .ico {
+    display: flex;
+    flex-wrap: nowrap;
+ }
+
+ .pin{
+    height: 22px;
+    margin-right: 10px;
+ }
+
+
+ .euro{
+    height: 22px;
+    margin-right: 10px;
+    margin-left: 20px;
+ }
+
+ .legende {
+    font-family: 'Oswald300';
+    font-size: 16px;
+ }
+
+ .description {
+    font-family: 'Oswald300';
+    font-size: 14px;
+    margin-bottom: 70px;
+ }
+
+
+ .bg-petit {
+    z-index: -2;
+    width: 250px;
+    height: 360px;
+ }
+
+ .caption2 {
+    width:100%;
+        top: 10px;
+        left: 20px;
+        padding-right: 40px;
+    position: absolute;
+    padding-top: 160px;
+    z-index: 1;
+ }
+
+ .img-event {
+    z-index: 1;
+    top: 160px;
+ }
+
+  .description2 {
+    font-family: 'Oswald300';
+    font-size: 14px;
+ }
+
+
+
+
+/* PAGE EVENEMENT */
+
+.text-normal {
+    font-family: 'Abel';
+    color: white;
+}
+
+.div1 {
+    background-color: #1F1E1E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.C2-white {
+    font-family: 'Oswald-regular';
+    color: white;
+    font-size: 24px;
+}
+
+.C4 {
+    font-family: 'Oswald-regular';
+    color: white;
+    font-size: 18px;
+}
+
+.div2 {
+    background-color: #151515;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+/* SERACH BAR */
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 45px;
+  height: 20px;
+}
+ 
+.img-search {
+    width: 20px;
+}
+
+/* FOOTER */
+
+.ico-rs {
+    margin: 10px;
+}
+
+.contenu-footer {
+    padding-top: 20px;
+}
+
+.img-footer {
+    max-width: 100%;
+}
+
+ .footer-title{
+    font-family: 'Oswald-regular';
+    color: #F7CA05;
+ }
+
+ .footer-bg{
+    z-index: -2;
+ }
+
+ .text-footer {
+    z-index: 1;
+ }
+
+footer {
+    background-color: #1F1E1E;
+    height: 300px;
+}
+
+.informations .caption {
+  padding: 20px;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQoU2NkYGAwZmBgOMuAAzBCxXEqgikAqcOqCFkBVkXoCjAUYVOAogiXArgifArAigACrwc8OFLGTgAAAABJRU5ErkJggg==) repeat ; 
+}
+@media (min-width: 500px) {
+  .informations .caption {
+    position: relative;
+    top: 30px;
+    left: -30px;
+    padding: 20px 20px 20px 50px;
+  }
+}
