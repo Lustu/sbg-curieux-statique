@@ -28,14 +28,8 @@ Tags:
 
 
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
-.eye {
-    width: 100%;
-} 
+
 
 .wrapper {
     height: 60px;
@@ -65,46 +59,6 @@ header {
     height: 60px;
 }
 
-.banner-black {
-    height: 60px;
-    line-height: 60px;
-    background: #1F1E1E;
-}
-
-
-.arrow-banner {
-    width: 100%;
-    max-width: 15px;
-    min-width: 15px;
-    margin: auto;
-    display: block;
-    padding-top: 10px;
-}
-
-
-.arrow-wrap {
-    height: 60px;
-    line-height: 60px;
-}
-
-.banner-txt {
-    font-family: 'Oswald-regular';
-    color: white;
-    display: flex;
-    justify-content: center;
-    }
-
-@media (min-width: 501px) {
-    .banner-txt {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 500px) {
-    .banner-txt {
-        font-size: 14px;
-    }
-}
 
 .txt-background {
     font-family: 'Oswald-regular';
@@ -162,17 +116,14 @@ header {
     flex-wrap: nowrap;
  }
 
- .pin{
-    height: 22px;
-    margin-right: 10px;
- }
+.pin {
+  margin-right: 10px;
+}
 
-
- .euro{
-    height: 22px;
+.map {
+    margin-left: 25px;
     margin-right: 10px;
-    margin-left: 20px;
- }
+}
 
  .legende {
     font-family: 'Oswald300';
@@ -330,13 +281,48 @@ header {
 
 footer {
     background-color: #1F1E1E;
-    height: 300px;
+    
 }
+
+@media (min-width: 769px;) {
+    footer {
+        height: 3s00px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 602px;) {
+    footer {
+        height: 500px;
+    }
+}
+
+@media (max-width: 601px) {
+    footer {
+        height: 800px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .informations .caption {
   padding: 20px;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQoU2NkYGAwZmBgOMuAAzBCxXEqgikAqcOqCFkBVkXoCjAUYVOAogiXArgifArAigACrwc8OFLGTgAAAABJRU5ErkJggg==) repeat ; 
 }
+
+
 @media (min-width: 500px) {
   .informations .caption {
     position: relative;
