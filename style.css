@@ -77,11 +77,24 @@ header {
     margin-bottom: 10px;
 }
 
+.date-yellow{
+    font-family: 'Oswald300';
+    font-size: 16px;
+    color: #F7CA05;
+    margin-bottom: 10px;
+}
 
 .titre {
     font-family: 'Oswald-regular';
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.titre-white {
+    font-family: 'Oswald-regular';
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 .titre-long {
@@ -116,6 +129,8 @@ header {
     flex-wrap: nowrap;
  }
 
+
+
 .pin {
   margin-right: 10px;
 }
@@ -130,10 +145,24 @@ header {
     font-size: 16px;
  }
 
+ .legende-white {
+    font-family: 'Oswald300';
+    font-size: 16px;
+    color: white;
+
+ }
+
  .description {
     font-family: 'Oswald300';
     font-size: 14px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+ }
+
+  .description-white {
+    font-family: 'Oswald300';
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
  }
 
 
@@ -143,7 +172,7 @@ header {
     height: 360px;
  }
 
- .caption2 {
+/* .caption2 {
     width:100%;
         top: 10px;
         left: 20px;
@@ -151,7 +180,7 @@ header {
     position: absolute;
     padding-top: 160px;
     z-index: 1;
- }
+ }*/
 
  .img-event {
     z-index: 1;
@@ -195,61 +224,52 @@ header {
     background-color: #151515;
     padding-top: 30px;
     padding-bottom: 30px;
+    z-index: 
+}
+
+
+
+.banner {
+  position: relative;
 }
 
 .img-banner {
-    width: 100%;
+  position: relative;
+  background: url(img/banner.jpg);
+  height: 220px;
 }
 
-/* SERACH BAR */
-.search-form .form-group {
-  float: right !important;
-  transition: all 0.35s, border-radius 0s;
-  width: 32px;
-  height: 32px;
-  background-color: black;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-  border-radius: 25px;
-  border: 1px solid black;
+  .ico-banner {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+    justify-content: center;
+ } 
+
+
+.titre-page {
+    position: relative;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
-.search-form .form-group input.form-control {
-  padding-right: 20px;
-  border: 0 none;
-  background: transparent;
-  box-shadow: none;
-  display:block;
+
+.C1-white {
+  font-family: 'Oswald-regular';
+  color: white;
+  font-size: 36px;
 }
-.search-form .form-group input.form-control::-webkit-input-placeholder {
-  display: none;
+
+.txt-banner {
+  position: relative;
+  text-align: center;
+  letter-spacing: 5px;
 }
-.search-form .form-group input.form-control:-moz-placeholder {
-  /* Firefox 18- */
-  display: none;
-}
-.search-form .form-group input.form-control::-moz-placeholder {
-  /* Firefox 19+ */
-  display: none;
-}
-.search-form .form-group input.form-control:-ms-input-placeholder {
-  display: none;
-}
-.search-form .form-group:hover,
-.search-form .form-group.hover {
-  width: 100%;
-  border-radius: 4px 25px 25px 4px;
-}
-.search-form .form-group span.form-control-feedback {
-  position: absolute;
-  top: -1px;
-  right: -2px;
-  z-index: 2;
-  display: block;
-  width: 45px;
-  height: 20px;
-}
- 
-.img-search {
-    width: 20px;
+
+
+.bg-eve-black {
+  background-color: #1F1E1E;
 }
 
 /* FOOTER */
@@ -305,15 +325,21 @@ footer {
 
 
 
+.inf-black {
+  background-color: #1F1E1E;
+  box-shadow: 2px 3px 8em; 
+}
 
 
 
+.inf {
+  padding:0px;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQoU2NkYGAwZmBgOMuAAzBCxXEqgikAqcOqCFkBVkXoCjAUYVOAogiXArgifArAigACrwc8OFLGTgAAAABJRU5ErkJggg==) repeat ; 
+}
 
-
-
-
-
-
+.caption2 {
+  padding: 20px;
+}
 
 
 
@@ -330,4 +356,13 @@ footer {
     left: -30px;
     padding: 20px 20px 20px 50px;
   }
+}
+
+.eve-sec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pad-eve-sec {
+  padding-bottom: 20px;
 }
